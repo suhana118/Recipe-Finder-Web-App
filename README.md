@@ -1,4 +1,4 @@
-
+<img width="1919" height="904" alt="Screenshot 2025-12-09 222719" src="https://github.com/user-attachments/assets/4559df30-4102-469c-9e86-6abab2d4c165" />
 # Recipe Finder
 
 A simple and interactive Recipe Finder web application built using **HTML**, **CSS**, and **JavaScript**.
@@ -72,6 +72,7 @@ This project allows users to search for recipes, browse through food cards, and 
 ### Home Page with Search
 
 
+<img width="1919" height="904" alt="Screenshot 2025-12-09 222719" src="https://github.com/user-attachments/assets/c7fc2ae7-e3c5-48fa-b77e-06045291e8ac" />
 
 ### Recipe Results:
 
