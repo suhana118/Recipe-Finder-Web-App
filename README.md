@@ -1,8 +1,7 @@
 
 # Recipe Finder
 
-A simple and interactive Recipe Finder web application built using **HTML**, **CSS**, and **JavaScript**.
-This project allows users to search for recipes, browse through food cards, and view complete recipe details with a single click.
+Recipe Finder is a website built using HTML, CSS, and JavaScript that allows users to search for recipes using an external API. Users can browse recipe results, view food images, and open detailed recipe information including ingredients and instructions.
 
 ---
 
@@ -11,7 +10,7 @@ This project allows users to search for recipes, browse through food cards, and 
 ### Search Recipes
 
 * Users can type any keyword (e.g., *pasta*, *chicken*, *rice*) into the search bar.
-* The app dynamically loads and displays relevant recipe results.
+* Its fetches recipes from an external API based on the search term.
 
 ### Recipe Cards
 
@@ -28,7 +27,7 @@ This project allows users to search for recipes, browse through food cards, and 
   * Recipe name
   * Ingredients
   * Step-by-step instructions
-  * Additional information 
+  * Additional recipe information depending on API response
 
 ### Responsive and Modern UI
 
@@ -41,7 +40,8 @@ This project allows users to search for recipes, browse through food cards, and 
 
 * **HTML** – Page structure
 * **CSS** – Styling and layout
-* **JavaScript** – Search functionality and dynamic content rendering
+* **JavaScript** – API calls, search logic, and dynamic rendering
+* **External API** – Used to fetch recipe data (details below)
 
 ---
 
@@ -51,7 +51,7 @@ This project allows users to search for recipes, browse through food cards, and 
 /project-folder
 │── index.html          # Main page with search bar and recipe listings
 │── style.css           # Stylesheet for the entire website
-│── script.js           # JavaScript logic for search and recipe details
+│── script.js           # API requests, search handling, and rendering
 │── README.md           # Project documentation
 ```
 
@@ -60,10 +60,10 @@ This project allows users to search for recipes, browse through food cards, and 
 ## How It Works
 
 1. The user enters a keyword into the search bar.
-2. JavaScript retrieves the matching recipes.
-3. The results are displayed as recipe cards.
-4. The user selects “View Recipe” to see complete details.
-5. The user can return to browse more recipes.
+2. JavaScript sends a request to the recipe API.
+3. API returns a list of matching recipes.
+4. Recipes are displayed as clickable cards.
+5. Clicking “View Recipe” shows complete details on a new section.
 
 ---
 
