@@ -1,0 +1,136 @@
+/* ---------- GLOBAL ---------- */
+body {
+    background: linear-gradient(135deg, #e7efff, #f3e9ff);
+    font-family: "Poppins", sans-serif;
+    color: #2d2d40;
+    min-height: 100vh;
+    padding-bottom: 40px;
+}
+
+/* Smooth animations */
+* {
+    transition: 0.2s ease-in-out;
+}
+
+h1 {
+    color: #2a2a3b;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* ---------- CONTAINER ---------- */
+.container {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(10px);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(90, 80, 140, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+}
+
+/* ---------- SEARCH BAR ---------- */
+#searchForm .input-group input {
+    background: #f7f5ff;
+    color: #333;
+    border: 1px solid #d6d0eb;
+    padding: 14px;
+    font-size: 16px;
+    border-radius: 10px 0 0 10px;
+}
+
+#searchForm .input-group input::placeholder {
+    color: #9a94b8;
+}
+
+#searchForm button {
+    background: #788bff;
+    font-weight: 600;
+    border: none;
+    padding: 0 25px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+}
+
+#searchForm button:hover {
+    background: #6476e0;
+}
+
+/* ---------- RESULTS ---------- */
+#results {
+    margin-top: 25px;
+}
+
+/* ---------- CARD ---------- */
+.card {
+    background: #ffffffdd;
+    border: 1px solid #ddd8f0;
+    border-radius: 14px;
+    overflow: hidden;
+    color: #2a2a3f;
+    transform: translateY(0);
+    box-shadow: 0 6px 20px rgba(120, 110, 180, 0.15);
+}
+
+.card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 28px rgba(100, 90, 160, 0.2);
+}
+
+.card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Card button */
+.card button {
+    background: #788bff;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: white;
+}
+
+.card button:hover {
+    background: #6779e7;
+}
+
+/* ---------- MODAL ---------- */
+.modal-content {
+    background: #faf8ff;
+    color: #333;
+    border-radius: 14px;
+    border: 1px solid #e4def6;
+}
+
+.modal-header {
+    border-bottom: 1px solid #ddd6f0;
+}
+
+.modal-body img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-body ul li {
+    margin-bottom: 6px;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #788bff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #e7e1ff;
+}
